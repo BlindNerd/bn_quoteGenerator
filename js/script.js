@@ -39,7 +39,7 @@ function printQuote(  ) {
     + randomQuote.tags + '</span>' + '</p>';
  document.getElementById('quote-box').innerHTML = html;
  document.body.style.background = randomColor();
- console.log(randomColor());
+ clearInterval();
 };
 
  // quotes change automaticly after a certain amount of time
